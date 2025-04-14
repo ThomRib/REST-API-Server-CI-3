@@ -65,7 +65,7 @@
   - Creat new file in **REST-API-Server-CI-3/application/controller**
     for example
     ```
-    rest_ci/application/controller/his_name.php
+    REST-API-Server-CI-3/application/controller/his_name.php
     ```
   - copy file in below to **his_name.php**
     ```php
