@@ -90,6 +90,7 @@
     ```
     
 # 4) function Get
+    ```
     function index_get() {
                            $id = $this->get('id');
                            if ($id == '') {
@@ -99,10 +100,11 @@
                              $his_name = $this->db->get('list_name')->result();
                            }
                            $this->response($his_name, 200);
-     }
+     };
     ```
     
 # 5) function Post
+    ```
     function index_post() {
                            $data = array(
                                          'id' => $this->post('id'),
@@ -113,10 +115,11 @@
                            } else {
                              $this->response(array('status' => 'fail', 502));
                            }
-     }
+     };
     ```
     
 # 6) function Put
+
     ```
     function index_put() {
                          $id = $this->put('id');
@@ -130,10 +133,12 @@
                          } else {
                            $this->response(array('status' => 'fail', 502));
                          }
-     }
+     };
     ```
     
 # 7) function Delete
+
+    ```php
     function index_delete() {
                              $id = $this->delete('id');
                              $this->db->where('id', $id);
@@ -143,4 +148,5 @@
                              } else {
                                $this->response(array('status' => 'fail', 502));
                              }
-     }
+     };
+    ```
