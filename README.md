@@ -90,8 +90,8 @@
     ```
     
 # 4) function Get
+    - copy Get function
     ```php
-    <?php
     function index_get() {
                            $id = $this->get('id');
                            if ($id == '') {
@@ -105,6 +105,7 @@
     ```
     
 # 5) function Post
+    - copy Post function
     ```php
     function index_post() {
                            $data = array(
@@ -120,6 +121,7 @@
     ```
     
 # 6) function Put
+    - copy Put function
     ```php
     function index_put() {
                          $id = $this->put('id');
@@ -137,6 +139,7 @@
     ```
     
 # 7) function Delete
+    - copy Delete function
     ```php
     function index_delete() {
                              $id = $this->delete('id');
