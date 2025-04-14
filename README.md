@@ -91,6 +91,7 @@
     
 # 4) function Get
     ```php
+    <?
     function index_get() {
                            $id = $this->get('id');
                            if ($id == '') {
@@ -101,6 +102,7 @@
                            }
                            $this->response($his_name, 200);
      }
+     ?>
     ```
     
 # 5) function Post
