@@ -1,7 +1,7 @@
 # REST-API-Server-CI-3
 
 # 1) Prepare
-  - You soud download **library REST Server**, link in below
+  - You soud download **library REST Server**, link down below
   ```gitbash
   https://github.com/chriskacerguis/codeigniter-restserver
   ```
