@@ -67,7 +67,7 @@
     ```
     REST-API-Server-CI-3/application/controller/his_name.php
     ```
-  - copy file in below to **his_name.php**
+  - copy file down below to **his_name.php**
     ```php
     <?php
     
