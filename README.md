@@ -5,6 +5,7 @@
   ```gitbash
   https://github.com/chriskacerguis/codeigniter-restserver
   ```
+---
 
 # 2) Config
   - Creat new database
@@ -60,7 +61,8 @@
                             'save_queries' => TRUE
                           );
     ```
-    
+---
+
 # 3) location
   - Creat new file in **REST-API-Server-CI-3/application/controller**
     for example
@@ -88,7 +90,8 @@
                                           }
     ?>
     ```
-    
+---
+
 # 4) function Get
     function index_get() {
                            $id = $this->get('id');
@@ -100,7 +103,8 @@
                            }
                            $this->response($his_name, 200);
      }
-    
+---
+
 # 5) function Post
     function index_post() {
                            $data = array(
@@ -113,7 +117,8 @@
                              $this->response(array('status' => 'fail', 502));
                            }
      }
-     
+---
+
 # 6) function Put
     function index_put() {
                          $id = $this->put('id');
@@ -128,7 +133,8 @@
                            $this->response(array('status' => 'fail', 502));
                          }
      }
-    
+---
+
 # 7) function Delete
     function index_delete() {
                              $id = $this->delete('id');
